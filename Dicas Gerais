@@ -1,0 +1,71 @@
+TypeScript
+
+	SuperSet do JavaScript
+	Link: https://www.typescriptlang.org/
+
+	O que é TypeScript?
+		É uma linguagem de programação que foi criada pela Microsoft, ela é um SuperSet de JavaScript
+
+	O que é Transpilação?
+		É o processo de fazer com que o código digitado seja TypeScript e que seja "Transpilado(compilação + transformação)" em JavaScript
+
+
+
+	|--------------------------------------
+	|									  |
+	|					TypeScript		  |
+	|									  |
+	|									  |	
+	|		|--------------------|		  |
+	|		|			  ES6	 |		  |
+	|		|					 |		  |	
+	|		|		|-----|		 |		  |
+	|		|		| ES5 |		 |		  |
+	|		|		|-----|	     |		  |
+	|		|				     |		  |
+	|		---------------------		  |
+	|									  |	
+	|									  |
+	|--------------------------------------
+
+
+	ES6 = Ecma Script 2016(Inclusão de Classes Etc)
+	ES5 = Padrão Simples
+
+	Instalação do NodeJs e do NPM(Gerenciador de Pacotes Node Package Manager)
+		install node  / para verificar as versções node -v
+		node{Enter} Entra no Node
+
+	Instalação do Visual Studio Code
+		Link: https://code.visualstudio.com/download
+	
+	Instalação do TypeScript
+		npm install -g typescript
+		tsc -v //Verifica a versão do typescript Version 2.7.2
+
+	Primeiro Código com TypeScript
+		Exemplo: hello-world.ts
+		Para Gerar um Js Através do TypeScript
+			tsc hello-world.ts
+		Para rodar o programa
+			node hello-world.js
+	
+	Continuar em Fundamentos do TypeScript
+		02 - Declaração de Variáveis
+			Diferença entre var let e const No Js a partir da versão 6
+			Foi criado o arquivo tsconfig.json, o qual informa a versão do es que vai ser configurado no projeto
+			Continuar do 2.1 a partir de 5 min
+
+
+
+Atalhos visual Studio 
+	CTRL+Shift+P = Command Pallete
+
+	
+
+
+
+
+
+
+
