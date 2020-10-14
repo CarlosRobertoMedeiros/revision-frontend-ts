@@ -51,16 +51,32 @@ TypeScript
 			node hello-world.js
 	
 	Continuar em Fundamentos do TypeScript
-		02 - Declaração de Variáveis
+		02.0 - Declaração de Variáveis
 			Diferença entre var let e const No Js a partir da versão 6
 			Foi criado o arquivo tsconfig.json, o qual informa a versão do es que vai ser configurado no projeto
-			Continuar do 2.1 a partir de 5 min
+
+			Para Realizar a transpilação automática
+			 - Você pode selecionar "Tasks: Configure Task", provavelmente você está com uma versão mais nova.
+			 - Pressionar F1 "Run Build Task" ou Atalho (CTRL+Shift+B)
+			 - No Terminar ao Compilar ele mostra no Terminal em Seguida você pode executar.
+			Ex. 
+				Verificar o arquivo 02-Declaração de Variáveis/declaracao-de-variaveis.ts
+
+		
+		02.1 - Tipos Básicos
+		02.2 - Inferência de Tipos
+		02.3 - Arrays e Iterações
+		02.4 - Types vs Interfaces
+	
+	Continuar em Orientação a Objetos do TypeScript 3.1 Classes e Objetos
+
 
 
 
 Atalhos visual Studio 
 	CTRL+Shift+P = Command Pallete
-
+    F1 = Run Build Task()
+	Run Build Task = (CTRL+Shift+B)
 	
 
 

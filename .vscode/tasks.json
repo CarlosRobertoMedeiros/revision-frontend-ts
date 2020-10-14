@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "01-Fundamentos/02-Declaração de Variáveis/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "tsc: watch - 01-Fundamentos/02-Declaração de Variáveis/tsconfig.json"
+		}
+	]
+}
