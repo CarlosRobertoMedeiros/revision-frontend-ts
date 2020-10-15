@@ -61,7 +61,6 @@ TypeScript
 			 - No Terminar ao Compilar ele mostra no Terminal em Seguida você pode executar.
 			Ex. 
 				Verificar o arquivo 02-Declaração de Variáveis/declaracao-de-variaveis.ts
-
 		
 		02.1 - Tipos Básicos
 		02.2 - Inferência de Tipos
@@ -69,6 +68,27 @@ TypeScript
 		02.4 - Types vs Interfaces
 	
 	Continuar em Orientação a Objetos do TypeScript 3.1 Classes e Objetos
+		03.1 - Classes e Objetos
+			Analogia    Abstração       /  Aplicabilidade Prática
+					     Classe Planta  /  Objeto Casa
+					     Classe Cliente /  Objeto Cliente de CPF xxx, outro CPF yyyy
+		
+		03.2 - Propriedades e métodos
+			Propriedades de uma classe Pessoa:
+				- nome
+				- Cpf
+				- Sexo
+
+			Ações/métodos
+				-Apresentar
+				-Andar
+
+		3.3 - Construindo sua primeira classe
+			Ex.Cliente.ts
+		3.4 - Exemplo de Herança
+			exemplo-heranca.ts
+		3.5 - Interfaces
+			
 
 
 
