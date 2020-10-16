@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promisses</title>
+</head>
+<body>
+    
+    <script>
+        //Exemplo Simples com Consulta de Forma assíncrona
+        const resposta = fetch('http://viacep.com.br/ws/01310932/json/');
+
+        resposta.then(data => data.json())
+                .then(data => {console.log(data)})
+                .catch(erro => {console.log(erro)});
+
+    </script>
+
+</body>
+</html>
